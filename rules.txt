@@ -1,0 +1,12 @@
+User:
+- id: must start with "U" followed by digits
+- name: 3–50 characters
+- email: must be valid email
+- orders: list of orders
+
+Order:
+- id: must start with "O" followed by digits
+- orderNumber: format "ORD-YYYY-NNNN"
+- totalAmount: >= 0
+- status: PENDING | CONFIRMED | SHIPPED | DELIVERED | CANCELLED
+- createdAt: ISO date-time

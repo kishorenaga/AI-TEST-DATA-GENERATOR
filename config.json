@@ -1,0 +1,5 @@
+{
+  "api_url": "http://localhost:11434/v1/chat/completions",
+  "model": "llama3",
+  "temperature": 0.2
+}
