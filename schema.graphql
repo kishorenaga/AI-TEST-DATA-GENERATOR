@@ -20,3 +20,7 @@ enum OrderStatus {
   DELIVERED
   CANCELLED
 }
+
+type Query {
+  users: [User!]!
+}
